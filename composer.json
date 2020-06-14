@@ -1,0 +1,26 @@
+{
+    "name": "jeddtony/monnify-validator",
+    "description": "Package validation for monnify payment gateway",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jeddtony",
+            "email": "jedtony.jt@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "JeddTony\\MonnifyValidator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JeddTony\\MonnifyValidator\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
